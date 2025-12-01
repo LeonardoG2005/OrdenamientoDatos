@@ -6,15 +6,6 @@ Este proyecto es una aplicación web interactiva desarrollada para la materia **
 
 La aplicación permite visualizar de manera práctica cómo distintos algoritmos de ordenamiento procesan información agrícola (producción, áreas de cultivo, etc.), facilitando la comprensión de sus características, ventajas y limitaciones según el tipo de datos que manejan.
 
-## 🎯 ¿Qué Problema Resuelve?
-
-El proyecto aborda varios conceptos fundamentales del análisis de algoritmos:
-
-- **Comparación práctica de algoritmos**: Permite experimentar con 9 algoritmos de ordenamiento diferentes sobre el mismo conjunto de datos
-- **Restricciones de algoritmos**: Demuestra que no todos los algoritmos funcionan con todos los tipos de datos (negativos, flotantes, cadenas de texto)
-- **Visualización de resultados**: Muestra cómo los datos se reorganizan después de aplicar cada algoritmo
-- **Aplicación real**: Utiliza datos reales de producción agrícola, demostrando que los algoritmos no son solo conceptos teóricos
-
 ## 🚀 Cómo Funciona la Aplicación
 
 ### Flujo General
@@ -92,8 +83,8 @@ El proyecto aborda varios conceptos fundamentales del análisis de algoritmos:
 
 ## 💻 Tecnologías y Herramientas Usadas
 
-- **HTML5**: Estructura de la página web
-- **CSS3**: Estilos personalizados (`style.css`)
+- **HTML**: Estructura de la página web
+- **CSS**: Estilos personalizados (`style.css`)
 - **JavaScript (ES6+)**: Lógica de la aplicación y todos los algoritmos
 - **Bootstrap 5**: Framework CSS para interfaz responsive y componentes (modal, tabla, botones)
 - **jQuery 3.6**: Manipulación del DOM y manejo de eventos
@@ -135,10 +126,6 @@ FinalAlgoritmos/
 
 ## 🔧 Instrucciones para Ejecutar el Proyecto
 
-### Requisitos Previos
-- Un navegador web moderno (Chrome, Firefox, Edge, Safari)
-- Conexión a Internet (para cargar Bootstrap, jQuery y la API de datos)
-
 ### Pasos para Ejecutar
 
 1. **Descargar o clonar el proyecto**
@@ -173,19 +160,6 @@ FinalAlgoritmos/
 
 - **Validación inteligente**: Si seleccionas una columna con números negativos o flotantes, los algoritmos Counting, Radix y Bucket se deshabilitarán automáticamente con una explicación
 - **Datos modificados**: Los años se generan aleatoriamente (incluyendo valores negativos entre -1000 y 990) para demostrar las limitaciones de ciertos algoritmos
-
-## 🎓 Conclusión
-
-Este proyecto es una herramienta educativa valiosa para el curso de **Análisis y Diseño de Algoritmos** porque:
-
-1. **Demuestra conceptos teóricos en práctica**: Ver cómo funcionan los algoritmos con datos reales facilita la comprensión
-2. **Enseña restricciones de algoritmos**: No todos los algoritmos son universales; algunos tienen limitaciones según el tipo de datos
-3. **Permite experimentación**: Los estudiantes pueden probar diferentes algoritmos sobre las mismas columnas y comparar resultados
-4. **Muestra la importancia de la validación**: La aplicación valida automáticamente qué algoritmos son aplicables
-5. **Integra conocimientos**: Combina estructuras de datos, análisis de complejidad, y desarrollo web
-6. **Usa datos reales**: Trabajar con información del gobierno colombiano hace el ejercicio más relevante que usar datos ficticios
-
-El proyecto sirve como referencia práctica para comprender que la elección del algoritmo correcto depende no solo de la eficiencia, sino también de las características específicas de los datos que se van a procesar.
 
 ---
 
